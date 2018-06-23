@@ -256,7 +256,7 @@ post_wordcount:
   #description: ex. subscribe to my blog by scanning my public wechat account
 
 # Reward
-reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+reward_comment: 若是觉得此文对您有所收获，不介意鼓励一下！
 wechatpay: /images/wechatpay.jpeg
 # alipay: /images/alipay.png
 #bitcoin: /images/bitcoin.png
@@ -668,7 +668,7 @@ tabs:
 
 # Use velocity to animate everything.
 motion:
-  enable: false
+  enable: true
   async: false
   transition:
     # Transition variants:
@@ -709,7 +709,7 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: true
+canvas_nest: false
 
 # three_waves
 three_waves: false
