@@ -11,8 +11,6 @@ tags:
 
 近期项目做活动页面，其中要实现一个类似微信拆红包效果，试着用CSS3实现了红包以及拆红包的动画。
 
-###### HTML
-
 ```html
 <!--微信红包-->
 <div style="position:fixed;left:0;top:0;right:0;bottom:0;z-index:3;background-color:rgba(0,0,0,.5);">
