@@ -155,15 +155,18 @@ social_icons:
 
 # Blog rolls
 links_icon: link
-links_title: 学习资源
+links_title: 前端行业峰会
 # links_layout: block
 links_layout: inline
 links:
-  张鑫旭: http://www.zhangxinxu.com/
-  Web前端导航: http://www.alloyteam.com/nav/
-  前端书籍资料: http://www.36zhen.com/t?id=3448
-  百度前端技术学院: http://ife.baidu.com/
-  google前端开发基础: http://wf.uisdc.com/cn/
+  前端体验大会: http://feexp.org/
+  D2前端技术论坛: http://d2forum.alibaba-inc.com/
+  CSS大会: https://css.w3ctech.com/
+  w3cTech: https://www.w3ctech.com/
+  iWeb峰会: http://2016.html5dw.com/
+  GMTC2018全球大前端技术大会: https://gmtc.geekbang.org/
+  中国用户体验峰会: http://uxa.ui.cn/
+  IXDC: https://ixdc.org/
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
