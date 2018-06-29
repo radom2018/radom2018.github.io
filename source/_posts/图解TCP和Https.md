@@ -1,8 +1,8 @@
 ---
-title: 图解TCP和Https
+title: 图解TCP和Https
 date: 2018-07-05 14:04:24
 categories:
-- 协议
+- 协议
 tags:
 - Tcp,Https
 presentation:
@@ -11,7 +11,7 @@ presentation:
   transition: 'zoom' # none/fade/slide/convex/concave/zoom
 ---
 <!-- slide data-transition="zoom" -->
-# 图解TCP和Https
+# 图解TCP和Https
 <!-- slide data-transition="zoom" data-background-color="#000000" -->
 ### 图解TCP
 <img src="https://user-gold-cdn.xitu.io/2018/6/26/1643baa44b0f52cf?imageView2/1/w/1304/h/734/q/85/format/webp/interlace/1" width="80%">
