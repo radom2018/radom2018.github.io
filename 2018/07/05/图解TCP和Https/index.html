@@ -70,7 +70,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Tcp,Https," />
 
 
 
@@ -81,17 +81,27 @@
 
 
 
-<meta name="description" content="hexo快速、简洁且高效的博客框架 NexT精于心，简于形  markdownMarkdown Preview Enhanced  gitHubGitHub Pages">
+<meta name="description" content="图解TCP和Https 图解TCP  TCP 三次握手    Item 1 点击显示 Item 1 Item 2 点击显示 Item 2    TCP 数据传输    TCP 四次挥手    图解HTTPS  Http2GitHub Pages">
+<meta name="keywords" content="Tcp,Https">
 <meta property="og:type" content="article">
-<meta property="og:title" content="结合gitHub+Hexo搭建博客">
-<meta property="og:url" content="http://www.radom.cc/2018/06/22/结合gitHub+Hexo搭建博客/index.html">
+<meta property="og:title" content="图解TCP和Https">
+<meta property="og:url" content="http://www.radom.cc/2018/07/05/图解TCP和Https/index.html">
 <meta property="og:site_name" content="第三空间">
-<meta property="og:description" content="hexo快速、简洁且高效的博客框架 NexT精于心，简于形  markdownMarkdown Preview Enhanced  gitHubGitHub Pages">
+<meta property="og:description" content="图解TCP和Https 图解TCP  TCP 三次握手    Item 1 点击显示 Item 1 Item 2 点击显示 Item 2    TCP 数据传输    TCP 四次挥手    图解HTTPS  Http2GitHub Pages">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-06-25T01:51:40.000Z">
+<meta property="og:image" content="https://user-gold-cdn.xitu.io/2018/6/26/1643baa44b0f52cf?imageView2/1/w/1304/h/734/q/85/format/webp/interlace/1">
+<meta property="og:image" content="https://user-gold-cdn.xitu.io/2018/6/26/1643a1dd6df4813b?imageslim">
+<meta property="og:image" content="https://user-gold-cdn.xitu.io/2018/6/26/1643a1f3fa6c21b0?imageslim">
+<meta property="og:image" content="https://user-gold-cdn.xitu.io/2018/6/26/1643a1f92f5af34a?imageslim">
+<meta property="og:image" content="https://user-gold-cdn.xitu.io/2018/6/26/1643a1fc9435605c?imageslim">
+<meta property="og:image" content="https://user-gold-cdn.xitu.io/2018/6/26/1643a20296de1ff0?imageslim">
+<meta property="og:image" content="https://user-gold-cdn.xitu.io/2018/6/26/1643b1147fbbc5e7?imageslim">
+<meta property="og:image" content="http://image.liuxuan.site/blog/20180521/https-logo.jpg?imageView2/1/w/1000/h/400">
+<meta property="og:updated_time" content="2018-07-02T01:33:32.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="结合gitHub+Hexo搭建博客">
-<meta name="twitter:description" content="hexo快速、简洁且高效的博客框架 NexT精于心，简于形  markdownMarkdown Preview Enhanced  gitHubGitHub Pages">
+<meta name="twitter:title" content="图解TCP和Https">
+<meta name="twitter:description" content="图解TCP和Https 图解TCP  TCP 三次握手    Item 1 点击显示 Item 1 Item 2 点击显示 Item 2    TCP 数据传输    TCP 四次挥手    图解HTTPS  Http2GitHub Pages">
+<meta name="twitter:image" content="https://user-gold-cdn.xitu.io/2018/6/26/1643baa44b0f52cf?imageView2/1/w/1304/h/734/q/85/format/webp/interlace/1">
 
 
 
@@ -121,7 +131,7 @@
 
 
 
-  <link rel="canonical" href="http://www.radom.cc/2018/06/22/结合gitHub+Hexo搭建博客/"/>
+  <link rel="canonical" href="http://www.radom.cc/2018/07/05/图解TCP和Https/"/>
 
 
 
@@ -140,7 +150,7 @@
         border-left-color: #1E92FB;    /*左边框颜色*/
     }
 </style>
-  <title>结合gitHub+Hexo搭建博客 | 第三空间</title>
+  <title>图解TCP和Https | 第三空间</title>
   
 
 
@@ -322,7 +332,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.radom.cc/2018/06/22/结合gitHub+Hexo搭建博客/">
+    <link itemprop="mainEntityOfPage" href="http://www.radom.cc/2018/07/05/图解TCP和Https/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Radom">
@@ -339,7 +349,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">结合gitHub+Hexo搭建博客</h1>
+          <h1 class="post-title" itemprop="name headline">图解TCP和Https</h1>
         
 
         <div class="post-meta">
@@ -351,8 +361,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-06-22T14:04:24+08:00">
-                2018-06-22
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-05T14:04:24+08:00">
+                2018-07-05
               </time>
             
 
@@ -361,6 +371,28 @@
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/协议/" itemprop="url" rel="index">
+                    <span itemprop="name">协议</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -384,7 +416,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  27
+                  44
                 </span>
               
               <span>字</span>
@@ -423,13 +455,30 @@
       
 
       
-        <!-- slide -->
-<h1 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h1><p>快速、简洁且高效的博客框架<br><!-- slide --></p>
-<h1 id="NexT"><a href="#NexT" class="headerlink" title="NexT"></a>NexT</h1><p>精于心，简于形</p>
-<!-- slide -->
-<h1 id="markdown"><a href="#markdown" class="headerlink" title="markdown"></a>markdown</h1><p>Markdown Preview Enhanced</p>
-<!-- slide -->
-<h1 id="gitHub"><a href="#gitHub" class="headerlink" title="gitHub"></a>gitHub</h1><p>GitHub Pages</p>
+        <!-- slide data-transition="zoom" -->
+<h1 id="图解TCP和Https"><a href="#图解TCP和Https" class="headerlink" title="图解TCP和Https"></a>图解TCP和Https</h1><!-- slide data-transition="zoom" -->
+<h3 id="图解TCP"><a href="#图解TCP" class="headerlink" title="图解TCP"></a>图解TCP</h3><p><img src="https://user-gold-cdn.xitu.io/2018/6/26/1643baa44b0f52cf?imageView2/1/w/1304/h/734/q/85/format/webp/interlace/1" width="80%"></p>
+<!-- slide data-transition="zoom" -->
+<h3 id="TCP-三次握手"><a href="#TCP-三次握手" class="headerlink" title="TCP 三次握手"></a>TCP 三次握手</h3><p><img src="https://user-gold-cdn.xitu.io/2018/6/26/1643a1dd6df4813b?imageslim" width="40%"></p>
+<!-- slide vertical=true data-transition="convex" -->
+<p><img src="https://user-gold-cdn.xitu.io/2018/6/26/1643a1f3fa6c21b0?imageslim" width="80%"></p>
+<ul>
+<li>Item 1 <!-- .element: class="fragment" data-fragment-index="1" --><br>点击显示 Item 1</li>
+<li>Item 2 <!-- .element: class="fragment" data-fragment-index="2" --><br>点击显示 Item 2 </li>
+</ul>
+<!-- slide data-transition="zoom" -->
+<h3 id="TCP-数据传输"><a href="#TCP-数据传输" class="headerlink" title="TCP 数据传输"></a>TCP 数据传输</h3><p><img src="https://user-gold-cdn.xitu.io/2018/6/26/1643a1f92f5af34a?imageslim" width="40%"></p>
+<!-- slide vertical=true data-transition="convex" -->
+<p><img src="https://user-gold-cdn.xitu.io/2018/6/26/1643a1fc9435605c?imageslim" width="80%"></p>
+<!-- slide data-transition="zoom" -->
+<h3 id="TCP-四次挥手"><a href="#TCP-四次挥手" class="headerlink" title="TCP 四次挥手"></a>TCP 四次挥手</h3><p><img src="https://user-gold-cdn.xitu.io/2018/6/26/1643a20296de1ff0?imageslim" width="40%"></p>
+<!-- slide vertical=true data-transition="convex" -->
+<p><img src="https://user-gold-cdn.xitu.io/2018/6/26/1643b1147fbbc5e7?imageslim" width="80%"></p>
+<!-- slide data-transition="zoom" -->
+<h3 id="图解HTTPS"><a href="#图解HTTPS" class="headerlink" title="图解HTTPS"></a>图解HTTPS</h3><p><img src="http://image.liuxuan.site/blog/20180521/https-logo.jpg?imageView2/1/w/1000/h/400"></p>
+<!-- slide data-transition="zoom" -->
+<h1 id="Http2"><a href="#Http2" class="headerlink" title="Http2"></a>Http2</h1><p>GitHub Pages</p>
+<!-- slide data-transition="zoom" data-background-image="https://i.loli.net/2016/07/18/578c66da6a5a3.jpg" -->
 
       
     </div>
@@ -469,6 +518,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/Tcp-Https/" rel="tag"><i class="fa fa-tag"></i> Tcp,Https</a>
+          
+        </div>
+      
 
       
       
@@ -478,8 +533,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/07/10/合理的使用语义化标莶/" rel="next" title="合理的使用语义化标莶">
-                <i class="fa fa-chevron-left"></i> 合理的使用语义化标莶
+              <a href="/2018/07/03/Parcel——快速、零配置的Web应用程序打包器/" rel="next" title="Parcel——快速、零配置的Web应用程序打包器">
+                <i class="fa fa-chevron-left"></i> Parcel——快速、零配置的Web应用程序打包器
               </a>
             
           </div>
@@ -487,10 +542,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/06/26/前端常见跨域解决方案/" rel="prev" title="前端常见跨域解决方案">
-                前端常见跨域解决方案 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -571,7 +622,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-count">11</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -582,7 +633,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -593,7 +644,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-count">11</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -684,7 +735,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#hexo"><span class="nav-number">1.</span> <span class="nav-text">hexo</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#NexT"><span class="nav-number">2.</span> <span class="nav-text">NexT</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#markdown"><span class="nav-number">3.</span> <span class="nav-text">markdown</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#gitHub"><span class="nav-number">4.</span> <span class="nav-text">gitHub</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#图解TCP和Https"><span class="nav-number">1.</span> <span class="nav-text">图解TCP和Https</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#图解TCP"><span class="nav-number">1.0.1.</span> <span class="nav-text">图解TCP</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#TCP-三次握手"><span class="nav-number">1.0.2.</span> <span class="nav-text">TCP 三次握手</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#TCP-数据传输"><span class="nav-number">1.0.3.</span> <span class="nav-text">TCP 数据传输</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#TCP-四次挥手"><span class="nav-number">1.0.4.</span> <span class="nav-text">TCP 四次挥手</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#图解HTTPS"><span class="nav-number">1.0.5.</span> <span class="nav-text">图解HTTPS</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Http2"><span class="nav-number">2.</span> <span class="nav-text">Http2</span></a></li></ol></div>
             
 
           </div>
@@ -718,7 +769,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">16.1k</span>
+    <span title="Site words total count">16.2k</span>
   
 </div>
 
