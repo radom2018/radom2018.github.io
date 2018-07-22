@@ -55,9 +55,6 @@ presentation:
 ![](../images/2018-07-21_213200.png)
 
 <!-- slide vertical=true data-transition="convex" -->
-![](http://5b0988e595225.cdn.sohucs.com/images/20180621/b83368f324fd480cbb8a6bba1c9f2198.jpeg)
-
-<!-- slide vertical=true data-transition="convex" -->
 ![](http://5b0988e595225.cdn.sohucs.com/images/20180621/7afdb8f5697949b988bed19a4d0dfc2d.jpeg)
 
 <!-- slide vertical=true data-transition="convex" -->
@@ -71,13 +68,12 @@ presentation:
 ![](../images/2018-07-21_214527.png)
 
 <!-- slide data-transition="zoom" -->
-### 快应用和小程序的关系
-<!-- ![](http://5b0988e595225.cdn.sohucs.com/images/20180720/90a00b867c6c4ed3a494e75a7a6b015f.jpeg) -->
+<!-- ### 快应用和小程序 -->
+![](https://a.zdmimg.com/201803/28/5abb75e13f9f29126.png_fo710.jpg)
 
 快应用有点像你在街上开的一家店，小程序有点像你在大商场里面租了一个摊位，可能是这种关系。
 
 <!-- slide data-transition="zoom" -->
-### 快应用和APP的关系
 ![](http://5b0988e595225.cdn.sohucs.com/images/20180621/e6e0e2581c2c484aabf0e8702ce10dfd.jpeg)
 
 <!-- slide data-transition="zoom" data-background-image="https://i.loli.net/2016/07/18/578c66da6a5a3.jpg" -->
