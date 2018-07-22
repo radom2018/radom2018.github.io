@@ -9,15 +9,14 @@ presentation:
   transition: 'zoom' 
   # none/fade/slide/convex/concave/zoom
 ---
-<!-- slide data-transition="zoom" -->
 <!-- <img src="../images/2018-07-21_213941.png" width="50%"> -->
-![](https://pic2.zhimg.com/80/v2-1f168e82f01be7daf358a36b7fd5e7b5_hd.jpg)
+<!-- ![](https://pic2.zhimg.com/80/v2-1f168e82f01be7daf358a36b7fd5e7b5_hd.jpg) -->
 
 <!-- slide data-transition="zoom" -->
 [![快应用官方宣传片](../images/2018-07-21_222732.png)](https://swsdl.vivo.com.cn/appstore/developer/uploadfile/20180323/20180323183010837.mp4)
 
 <!-- slide data-transition="zoom" -->
-快应用是国产十大手机厂商联合制定基于手机硬件平台的新型应用形态,具备传统APP完整的应用体验，且无需下载安装，即点即用。
+快应用是国产十大手机厂商联合制定基于手机硬件平台的新型应用形态,使用前端技术栈开发，原生渲染，同时具备 HTML 5 页面和原生应用的双重优点。用户无需下载安装，即点即用，享受原生应用的性能体验。
 
 ![十大手机厂商](https://pic1.zhimg.com/v2-bfb104aa16cff7d6400ed8b2b3e7a278_b.jpg)
 
@@ -71,6 +70,8 @@ presentation:
 <!-- ### 快应用和小程序 -->
 ![](https://a.zdmimg.com/201803/28/5abb75e13f9f29126.png_fo710.jpg)
 
+<!-- slide data-transition="zoom" -->
+<!-- ### 快应用和小程序 -->
 快应用有点像你在街上开的一家店，小程序有点像你在大商场里面租了一个摊位，可能是这种关系。
 
 <!-- slide data-transition="zoom" -->
