@@ -1,7 +1,10 @@
 ---
 title: parcel
 date: 2018-07-03 21:04:40
+categories:
+- 打包构建
 tags:
+- 工具 
 presentation:
   theme: night.css
   enableSpeakerNotes: true
@@ -57,3 +60,5 @@ Parcel 接受单个入口资源作为输入，可以是任意类型： JS 文件
 
 **打包**： 
 在文件束树被构建之后，每个文件束都会被 packager 写到一个特定文件类型的文件中。packagers 知道如何从每个资源中将代码合并起来，生成到最终被浏览器加载的文件中
+
+<!-- slide data-transition="zoom" data-background-image="https://i.loli.net/2016/07/18/578c66da6a5a3.jpg" --> 
