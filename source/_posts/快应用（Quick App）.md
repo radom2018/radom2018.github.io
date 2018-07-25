@@ -9,6 +9,7 @@ presentation:
   transition: 'zoom' 
   # none/fade/slide/convex/concave/zoom
 ---
+<!-- https://mmbiz.qpic.cn/mmbiz_png/ib3nLDnR1dIibIktAdnAviaScHOD0LFgiciaYxsHMkTJaphESWuq5bRia1Ydaxs1n0ozqkWZu33AicdhpVHzoQQhwkOiaw/640?wx_fmt=gif -->
 <!-- <img src="../images/2018-07-21_213941.png" width="50%"> -->
 <!-- ![](https://pic2.zhimg.com/80/v2-1f168e82f01be7daf358a36b7fd5e7b5_hd.jpg) -->
 
@@ -36,7 +37,19 @@ presentation:
 ![](../images/2018-07-21_171446.png)
 
 <!-- slide vertical=true data-transition="convex" -->
-代码截图展示
+### 快应用项目
+```
+npm install -g hap-toolkit // 安装toolkit工具
+hap init <ProjectName> // 创建项目
+npm install // 安装依赖
+npm run build // 手动编译 编译打包成功后，项目根目录下会生成文件夹：build、dist
+npm run watch // 自动编译
+npm run server // 启动http服务
+```
+
+<!-- slide vertical=true data-transition="convex" -->
+### 快应用文件组织
+![](../images/WechatIMG1837.jpeg)
 
 <!-- slide data-transition="zoom" -->
 ### 快应用的接口能力
@@ -91,6 +104,6 @@ presentation:
 <img src="http://5b0988e595225.cdn.sohucs.com/images/20180621/e6e0e2581c2c484aabf0e8702ce10dfd.jpeg" width="60%" />
 <!-- ![](http://5b0988e595225.cdn.sohucs.com/images/20180621/e6e0e2581c2c484aabf0e8702ce10dfd.jpeg) -->
 
-从小程序到快应用，安卓App市场陆续被瓜分，但目前来看不会被取代。
+从小程序到快应用，安卓App市场流量陆续被瓜分，但目前来看不会被取代。
 
 <!-- slide data-transition="zoom" data-background-image="https://i.loli.net/2016/07/18/578c66da6a5a3.jpg" -->
