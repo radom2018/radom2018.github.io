@@ -25,6 +25,10 @@ presentation:
 ![](https://pic1.zhimg.com/v2-bfb104aa16cff7d6400ed8b2b3e7a278_b.jpg)
 
 <!-- slide data-transition="zoom" -->
+### 快应用的接入
+![](../images/WechatIMG1859.jpeg)
+
+<!-- slide data-transition="zoom" -->
 ### 快应用的优势
 ![](../images/2018-07-21_171345.png)
 
@@ -46,10 +50,12 @@ npm run build // 手动编译 编译打包成功后，项目根目录下会生�
 npm run watch // 自动编译
 npm run server // 启动http服务
 ```
+<img src="../images/WechatIMG1858.jpeg" width="60%">
 
 <!-- slide vertical=true data-transition="convex" -->
 ### 快应用文件组织
-![](../images/WechatIMG1837.jpeg)
+<!-- ![](../images/WechatIMG1837.jpeg) -->
+<img src="../images/WechatIMG1837.jpeg" width="60%">
 
 <!-- slide data-transition="zoom" -->
 ### 快应用的接口能力
