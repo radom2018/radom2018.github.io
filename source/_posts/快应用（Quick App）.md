@@ -9,12 +9,15 @@ presentation:
   transition: 'zoom' 
   # none/fade/slide/convex/concave/zoom
 ---
-<!-- https://mmbiz.qpic.cn/mmbiz_png/ib3nLDnR1dIibIktAdnAviaScHOD0LFgiciaYxsHMkTJaphESWuq5bRia1Ydaxs1n0ozqkWZu33AicdhpVHzoQQhwkOiaw/640?wx_fmt=gif -->
+<!-- https://mmbiz.qpic.cn/mmbiz_png/ib3nLDnR1dIibIktAdnAviaScHOD0LFgiciaYxsHMkTJaphESWuq5bRia1Ydaxs1n0ozqkWZu33AicdhpVHzoQQhwkOiaw/640?wx_fmt=gif 
+https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/-->
 <!-- <img src="../images/2018-07-21_213941.png" width="50%"> -->
 <!-- ![](https://pic2.zhimg.com/80/v2-1f168e82f01be7daf358a36b7fd5e7b5_hd.jpg) -->
 
 <!-- slide data-transition="zoom" -->
 [![](../images/2018-07-21_222732.png)](https://swsdl.vivo.com.cn/appstore/developer/uploadfile/20180323/20180323183010837.mp4)
+
+复杂生活的简单答案
   <!-- <video src="https://swsdl.vivo.com.cn/appstore/developer/uploadfile/20180323/20180323183010837.mp4" poster="https://www.quickapp.cn/assets/images/home/video.png" controls="controls">
       您的浏览器不支持 video 标签。
   </video> -->
@@ -50,7 +53,7 @@ npm run build // 手动编译 编译打包成功后，项目根目录下会生�
 npm run watch // 自动编译
 npm run server // 启动http服务
 ```
-<img src="../images/WechatIMG1858.jpeg" width="60%">
+<!-- <img src="../images/WechatIMG1858.jpeg" width="60%"> -->
 
 <!-- slide vertical=true data-transition="convex" -->
 ### 快应用文件组织
@@ -96,6 +99,7 @@ npm run server // 启动http服务
 <!-- slide data-transition="zoom" -->
 ### 快应用和小程序
 ![](https://a.zdmimg.com/201803/28/5abb75e13f9f29126.png_fo710.jpg)
+
 小程序接入广点通意味着厂商提供硬件平台的同时，从小程序获取不到利润，免费为微信打工，厂商的核心应用分发受到了威胁。
 
 <!-- slide data-transition="zoom" -->
@@ -110,6 +114,6 @@ npm run server // 启动http服务
 <img src="http://5b0988e595225.cdn.sohucs.com/images/20180621/e6e0e2581c2c484aabf0e8702ce10dfd.jpeg" width="60%" />
 <!-- ![](http://5b0988e595225.cdn.sohucs.com/images/20180621/e6e0e2581c2c484aabf0e8702ce10dfd.jpeg) -->
 
-从小程序到快应用，安卓App市场流量陆续被瓜分，但目前来看不会被取代。
+求安卓小姐姐的心理阴影面积
 
 <!-- slide data-transition="zoom" data-background-image="https://i.loli.net/2016/07/18/578c66da6a5a3.jpg" -->
